@@ -1,0 +1,12 @@
+{
+  "name": "InAppBrowserTests",
+  "version": "4.0.0-OS1",
+  "description": "Android Unit Tests for the plugin InAppBrowser",
+  "dependencies": {
+    "cordova-android": "^6.1.2"
+  },
+  "scripts": {
+    "test": "cd InAppBrowserTest && ./gradlew testDebugUnitTest --continue"
+  },
+  "author": "OutSystems Inc"
+}
